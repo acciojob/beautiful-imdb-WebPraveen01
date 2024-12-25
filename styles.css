@@ -1,2 +1,60 @@
 
-/* Your CSS Code here. */
+/* Basic reset for the page */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* Movie container for center alignment */
+.movie-container {
+  text-align: center;
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Styling for the movie poster */
+.moviePic {
+  height: 400px;
+  width: 300px;
+  opacity: 0.9;
+  border-radius: 8px;
+  transition: opacity 0.3s ease-in-out;
+}
+
+/* Hover effect on movie poster */
+.moviePic:hover {
+  opacity: 1;
+}
+
+/* Styling for the movie description */
+.movieDetail {
+  position: relative;
+  top: 20px;
+  width: 80%;
+  max-width: 600px;
+  text-align: center;
+  font-size: 18px;
+  color: #333;
+  margin: 0 auto;
+  line-height: 1.6;
+  letter-spacing: 0.5px;
+}
+
+/* Adding a background to the body for more contrast */
+body {
+  background-image: linear-gradient(to bottom, #e6e6e6, #ffffff);
+}
